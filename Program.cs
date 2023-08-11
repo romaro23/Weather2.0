@@ -38,5 +38,7 @@ public static partial class Program
     async static Task Error(ITelegramBotClient botClien, Exception exception, CancellationToken cancellationToken)
     {
         Console.WriteLine(exception.Message);
+        Console.WriteLine(exception.Message);
     }
+    
 }
